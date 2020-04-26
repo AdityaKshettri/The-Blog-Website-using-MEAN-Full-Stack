@@ -8,11 +8,15 @@ const userRoutes = require('./routes/user');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://root:1234@cluster0-2kdyk.mongodb.net/mean', {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-  useCreateIndex: true
-})
+mongoose.connect(
+  'mongodb+srv://root:' +
+  process.env.MONGO_ATLAS_PASSWORD +
+  '@cluster0-2kdyk.mongodb.net/mean',
+  {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useCreateIndex: true
+  })
   .then(() => {
     console.log('Connected to database successfully!');
   })
