@@ -2,7 +2,7 @@
 
 In this project, I have worked on Full Stack Web Development using Node.js as Backend server and Angular.js as Frontend platform to perform CRUD Operations on Blog using MongoDB. Here, I have worked with the backedn as well as the frontend in the same project for the ease of access. You can do it differently if you wish to.
 
-# Product Website Link : 
+# Product Website Link : http://the-mean-angular-node-app.s3-website.ap-south-1.amazonaws.com/
 
 # How to work with this project :
 
