@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost:3000/api'
+  apiUrl: 'http://meanapp-env.eba-mkvikfs9.ap-south-1.elasticbeanstalk.com/api'
 };
