@@ -1,27 +1,24 @@
-# MeanDemo
+# The Blog Website using MEAN Full Stack :
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+In this project, I have worked on Full Stack Web Development using Node.js as Backend server and Angular.js as Frontend platform to perform CRUD Operations on Blog using MongoDB. Here, I have worked with the backedn as well as the frontend in the same project for the ease of access. You can do it differently if you wish to.
 
-## Development server
+# Product Website Link : 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# How to work with this project :
 
-## Code scaffolding
+1- Download the entire project and open it in Visual Studio Code after unzipping.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2- Download the required dependencies in the package.json file using:
+> npm install
 
-## Build
+3- Run the node backend server in the terminal by running the server.js file in backend folder using:
+> npm run start:server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+4- Goto the http://localhost:3000/api/posts to see all the posts saved in the mongodb.
 
-## Running unit tests
+5- Open a new terminal and run the angular frontend server using:
+> ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+6- Goto the http://localhost:4200/ to see the project homepage. 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+7- You can perform all CRUD operations on your Blogs as well as see the blogs of other users too.
